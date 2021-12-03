@@ -1,4 +1,3 @@
-package com.chatRoom;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
