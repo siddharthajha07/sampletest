@@ -1,6 +1,6 @@
 FROM openjdk:11
 COPY . /home/dsdoptimize/sampletest/ChatRoomSocket/src/com/chatRoom
 WORKDIR /home/dsdoptimize/sampletest/ChatRoomSocket/src/com/chatRoom
-CMD ["echo", "$PWD"]
-RUN javac Server.java
+
+RUN javac /home/dsdoptimize/sampletest/ChatRoomSocket/src/com/chatRoom/Server.java
 CMD ["java", "Server"]
