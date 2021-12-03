@@ -1,5 +1,5 @@
 FROM openjdk:11
-COPY . /home/dsdoptimize/sampletest/ChatRoomSocket/src/com
-WORKDIR /home/dsdoptimize/sampletest/ChatRoomSocket/src/com
+COPY . ./ChatRoomSocket/src/com/chatRoom/
+WORKDIR ./ChatRoomSocket/src/com/chatRoom/
 RUN javac Server.java
 CMD ["java", "Server"]
